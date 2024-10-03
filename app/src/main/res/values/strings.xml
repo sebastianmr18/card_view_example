@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">class_7</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="userPreferences">Preferencias de usuario</string>
+    <string name="darkMode">Modo Oscuro</string>
+    <string name="changeLanguage">Cambiar idioma</string>
+    <string name="recyclerView">Ir a Recycler View</string>
+    <string name="camera">Ir a cámara</string>
+    <string name="notifications">Mostrar notificación</string>
+    <string name="bottom">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+    <string name="welcomeRecycler">Recycler</string>
+</resources>
