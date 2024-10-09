@@ -114,6 +114,9 @@ Necesitamos crear las Card View que contienen la informaciòn, creamos el siguie
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
 ```
+El item creado se debe ver así.
+![Vista del codigo y la vista en Android Studio](https://github.com/user-attachments/assets/8099080b-dc32-464e-8f98-c23bbf5d697e)
+
 Ahora, creamos el fragment que va a recibir este item, a este se le llama el <b>RecyclerView</b>:
 ```bash
 <!--fragment_recycler.xml-->
@@ -154,6 +157,9 @@ Ahora, creamos el fragment que va a recibir este item, a este se le llama el <b>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
 ```
+Ahora, la vista prevía debe verse así.
+![Vista del codigo y la vista en Android Studio](https://github.com/user-attachments/assets/52bcf183-7566-4165-8671-a01d2854ab8e)
+
 Ahora, debemos crear el <b>ViewHolder</b>, que se encarga de manejar y organizar los items en pantalla. 
 En este caso tenemos unalista de superhéroes, cada superhéroe necesita un contenedor para mostrar su imagen, nombre y poder. 
 El <b>ViewHolder</b> se encarga de mantener organizadas todas esas vistas (componentes) para cada ítem.
@@ -292,3 +298,14 @@ class RecyclerFragment : Fragment() {
     }
 }
 ```
+Ahora, el fragmento de Super Heroes debe verse así:
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/892dcd1b-2c06-4b55-8a1c-0a530cb21b66" alt="Vista" width="300" height="500">
+<p/>
+
+Y cuando presionamos una de las Card View:
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/34f2ff5f-d61e-4ac1-9f33-b8d8d271fd1d" alt="Vista al presionar una Card View" width="300" height="500">
+<p/>
+
+
